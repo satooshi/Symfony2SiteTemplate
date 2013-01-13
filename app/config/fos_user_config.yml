@@ -1,0 +1,7 @@
+# fos user bundle
+fos_user:
+    db_driver: orm
+    firewall_name: fos_user
+    user_class: Application\Bundle\UserBundle\Entity\User
+    group:
+        group_class: Application\Bundle\UserBundle\Entity\Group

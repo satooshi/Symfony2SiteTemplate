@@ -20,6 +20,10 @@
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
 
+        "friendsofsymfony/user-bundle": "dev-master",
+        "sonata-project/user-bundle": "dev-master",
+        "sonata-project/google-authenticator": "dev-master",
+
         "sonata-project/admin-bundle": "dev-master",
         "sonata-project/jquery-bundle": "dev-master",
         "sonata-project/exporter": "dev-master",

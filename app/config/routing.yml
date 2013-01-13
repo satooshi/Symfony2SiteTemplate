@@ -1,3 +1,8 @@
+application_sonata_user:
+    resource: "@ApplicationSonataUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 # Internal routing configuration to handle ESI
 # ****** WARNING ******
 # This route should be enabled with caution as it can open a security vulnerability
@@ -7,11 +12,20 @@
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
 
-# sonata page bundle
-sonata_page_exceptions:
-    resource: '@SonataPageBundle/Resources/config/routing/exceptions.xml'
-    prefix: /
+application_site:
+    resource: "@ApplicationSiteBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
-sonata_page_cache:
-    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
-    prefix: /
+application_user:
+    resource: "@ApplicationUserBundle/Controller/"
+    type:     annotation
+
+_fos:
+    resource: fos_user_routing.yml
+
+_admin:
+    resource: sonata_admin_routing.yml
+
+_sonata_user:
+    resource: sonata_user_routing.yml

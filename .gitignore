@@ -15,6 +15,9 @@ web/bundles/*
 # additional ignored files
 web/index.php
 build/
+composer.lock
+composer.log
+vendor.tar.gz
 
 # eclipse files
 .buildpath

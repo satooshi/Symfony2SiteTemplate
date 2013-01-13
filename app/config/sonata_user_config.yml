@@ -1,0 +1,24 @@
+sonata_user:
+    security_acl: true
+    table:
+        user_group: sonata_user_group
+
+fos_user:
+    db_driver:      orm # can be orm or odm
+    firewall_name:  main
+    user_class:     Application\Sonata\UserBundle\Entity\User
+    group:
+        group_class: Application\Sonata\UserBundle\Entity\Group
+
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    FOSUserBundle: ~
+                    ApplicationSonataUserBundle: ~
+                    SonataUserBundle: ~
+
+    dbal:
+        types:
+            json: Sonata\Doctrine\Types\JsonType

@@ -1,0 +1,140 @@
+[32mLoading composer repositories with package information[0m
+[32mInstalling dependencies[0m
+  - Installing [32mdoctrine/common[0m ([33m2.3.0[0m)
+    Loading from cache
+
+  - Installing [32mdoctrine/dbal[0m ([33m2.3.2[0m)
+    Loading from cache
+
+  - Installing [32mtwig/twig[0m ([33mv1.12.0[0m)
+    Loading from cache
+
+  - Installing [32msymfony/symfony[0m ([33mv2.1.6[0m)
+    Loading from cache
+
+  - Installing [32mdoctrine/doctrine-bundle[0m ([33mv1.0.0[0m)
+    Loading from cache
+
+  - Installing [32mkriswallsmith/assetic[0m ([33mdev-master 5591252[0m)
+    Cloning 5591252faa1c7f3299660daebffd63dee2746b7e
+
+  - Installing [32msymfony/assetic-bundle[0m ([33mv2.1.0[0m)
+    Loading from cache
+
+  - Installing [32mjms/metadata[0m ([33m1.1.1[0m)
+    Loading from cache
+
+  - Installing [32mjms/cg[0m ([33m1.0.0[0m)
+    Loading from cache
+
+  - Installing [32mswiftmailer/swiftmailer[0m ([33mv4.2.2[0m)
+    Loading from cache
+
+  - Installing [32mmonolog/monolog[0m ([33m1.2.1[0m)
+    Loading from cache
+
+  - Installing [32mjms/aop-bundle[0m ([33m1.0.0[0m)
+    Loading from cache
+
+  - Installing [32mjms/di-extra-bundle[0m ([33m1.1.1[0m)
+    Loading from cache
+
+  - Installing [32mjms/security-extra-bundle[0m ([33m1.2.0[0m)
+    Loading from cache
+
+  - Installing [32msonata-project/jquery-bundle[0m ([33mdev-master 5f87a76[0m)
+    Cloning 5f87a761302e6c78304e071416f75d41eb1fb3c2
+
+  - Installing [32msonata-project/block-bundle[0m ([33mdev-master 92b2bfd[0m)
+    Cloning 92b2bfd445bc83a0fa7149ef760fa0d0f2587845
+
+  - Installing [32mdoctrine/orm[0m ([33m2.3.2[0m)
+    Loading from cache
+
+  - Installing [32mknplabs/knp-menu[0m ([33mv1.1.2[0m)
+    Loading from cache
+
+  - Installing [32mknplabs/knp-menu-bundle[0m ([33mv1.1.0[0m)
+    Loading from cache
+
+  - Installing [32msonata-project/exporter[0m ([33mdev-master 1.0.0[0m)
+    Cloning 1.0.0
+
+  - Installing [32msonata-project/admin-bundle[0m ([33mdev-master c06a450[0m)
+    Cloning c06a4505662cbfb17ad0562cff51593d0b530f99
+
+  - Installing [32msonata-project/doctrine-orm-admin-bundle[0m ([33mdev-master 34f757e[0m)
+    Cloning 34f757e564bf1a8fa966f55f89899fa638341135
+
+  - Installing [32msonata-project/intl-bundle[0m ([33mdev-master 0208ca4[0m)
+    Cloning 0208ca4b0fbb9531a5cfe059f1d3458a49e94602
+
+  - Installing [32msymfony-cmf/routing[0m ([33mdev-master 1.0.0-alpha3[0m)
+    Cloning 1.0.0-alpha3
+
+  - Installing [32msymfony/monolog-bundle[0m ([33mv2.1.7[0m)
+    Loading from cache
+
+  - Installing [32msymfony-cmf/routing-extra-bundle[0m ([33mdev-master d1b076b[0m)
+    Cloning d1b076b851817245264da89c59e7ee1810061943
+
+  - Installing [32msonata-project/cache-bundle[0m ([33mdev-master c89d2db[0m)
+    Cloning c89d2db291912a866c41f4aa010f4ca45d5bca18
+
+  - Installing [32msonata-project/doctrine-extensions[0m ([33mdev-master d2cd67a[0m)
+    Cloning d2cd67a25602fecab6067290536f163ea54f1c8c
+
+  - Installing [32msonata-project/notification-bundle[0m ([33mdev-master 2ecec0f[0m)
+    Cloning 2ecec0ffc2568e747f81d8b44950971ad7d22c56
+
+  - Installing [32msonata-project/seo-bundle[0m ([33mdev-master 2dfe302[0m)
+    Cloning 2dfe30263d881199fea82a126cfac3b5803b328e
+
+  - Installing [32msonata-project/page-bundle[0m ([33mdev-master 084c03d[0m)
+    Cloning 084c03d4049ed7fb3f69f40fe141c5a09932206c
+
+  - Installing [32msonata-project/easy-extends-bundle[0m ([33mdev-master 779a64a[0m)
+    Cloning 779a64aa342f2d9b599ea03511064a2913195181
+
+  - Installing [32mtwig/extensions[0m ([33mdev-master 5c2d515[0m)
+    Cloning 5c2d515d4624bdd588226d688173cf0399a4d8cf
+
+  - Installing [32msymfony/swiftmailer-bundle[0m ([33mv2.1.5[0m)
+    Loading from cache
+
+  - Installing [32msensio/distribution-bundle[0m ([33mv2.1.5[0m)
+    Loading from cache
+
+  - Installing [32msensio/framework-extra-bundle[0m ([33mv2.1.5[0m)
+    Loading from cache
+
+  - Installing [32msensio/generator-bundle[0m ([33mv2.1.5[0m)
+    Loading from cache
+
+kriswallsmith/assetic suggests installing leafo/lessphp (Assetic provides the integration with the lessphp LESS compiler)
+kriswallsmith/assetic suggests installing leafo/scssphp (Assetic provides the integration with the scssphp SCSS compiler)
+kriswallsmith/assetic suggests installing ptachoire/cssembed (Assetic provides the integration with phpcssembed to embed data uris)
+kriswallsmith/assetic suggests installing leafo/scssphp-compass (Assetic provides the integration with the SCSS compass plugin)
+monolog/monolog suggests installing mlehner/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+knplabs/knp-menu suggests installing pimple/pimple (for the built-in implementations of the menu provider and renderer provider)
+knplabs/knp-menu suggests installing silex/silex (for the integration with your silex application)
+symfony-cmf/routing-extra-bundle suggests installing doctrine/phpcr-odm (To enable support for the PHPCR ODM documents)
+symfony-cmf/routing-extra-bundle suggests installing doctrine/phpcr-bundle (To enable support for the PHPCR ODM documents)
+symfony-cmf/routing-extra-bundle suggests installing symfony-cmf/content-bundle (To optionally use the configured value for 'content_basepath' from the CoreBundle)
+symfony-cmf/routing-extra-bundle suggests installing sonata-project/doctrine-phpcr-admin-bundle (To provide an admin interface for the PHPCR ODM documents)
+sonata-project/cache-bundle suggests installing doctrine/phpcr-bundle (PHPCR ODM support)
+sonata-project/cache-bundle suggests installing doctrine/phpcr-odm (PHPCR ODM support)
+sonata-project/cache-bundle suggests installing ext-memcached (Caching with ext/memcached)
+sonata-project/notification-bundle suggests installing videlalvaro/php-amqplib (*)
+sonata-project/notification-bundle suggests installing guzzle/guzzle (*)
+sonata-project/notification-bundle suggests installing liip/monitor (*)
+[32mWriting lock file[0m
+[32mGenerating autoload files[0m
+Clearing the cache for the [32mdev[0m environment with debug [32mtrue[0m
+Installing assets using the [33mhard copy[0m option
+Installing assets for [33mSymfony\Bundle\FrameworkBundle[0m into [33mweb/bundles/framework[0m
+Installing assets for [33mAcme\DemoBundle[0m into [33mweb/bundles/acmedemo[0m
+Installing assets for [33mSymfony\Bundle\WebProfilerBundle[0m into [33mweb/bundles/webprofiler[0m
+Installing assets for [33mSensio\Bundle\DistributionBundle[0m into [33mweb/bundles/sensiodistribution[0m

@@ -1,5 +1,5 @@
 # Bootstrap
-app/bootstrap*
+#app/bootstrap*
 
 # Symfony directories
 vendor/*
@@ -9,5 +9,14 @@ web/uploads/*
 web/bundles/*
 
 # Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+#app/config/parameters.ini
+#app/config/parameters.yml
+
+# additional ignored files
+web/index.php
+build/
+
+# eclipse files
+.buildpath
+.project
+.settings/

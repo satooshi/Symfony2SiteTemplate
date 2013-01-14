@@ -38,15 +38,19 @@ And then, you should run these commands to create required tables, user records,
 
     # if you don't use sonata user bundle then run this command
     # and create your User, Group entity to src/Bundle/UserBundle/Entity/
-    php app/console generate:bundle --namespace=Application/Bundle/UserBundle --dir=src
+    #php app/console generate:bundle --namespace=Application/Bundle/UserBundle --dir=src
 
-    # enable sonata user bundle and create sonata user
-    php app/console sonata:easy-extends:generate SonataUserBundle --dest=src
+    # this command has already done in this boilerplate
+    # enable sonata user bundle on your application
+    #php app/console sonata:easy-extends:generate SonataUserBundle --dest=src
+    
+    # create sonata user
     php app/console fos:user:create admin admin@example.com adminpass --super-admin
     php app/console fos:user:create testuser test@example.com userpass
 
-    # enable sonata page bundle
-    php app/console sonata:easy-extends:generate SonataPageBundle --dest=src
+    # this command has already done in this boilerplate
+    # enable sonata page bundle on your application
+    #php app/console sonata:easy-extends:generate SonataPageBundle --dest=src
 
     # create tables related to sonata page bundle
     php app/console doctrine:schema:update --dump-sql

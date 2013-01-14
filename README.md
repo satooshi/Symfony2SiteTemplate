@@ -90,7 +90,7 @@ If you want to get more information, see documentation of each bundle.
 
 * [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle)
 * [Sonata Project](http://sonata-project.org/bundles/)
-* 
+* [SymfonyCmfRoutingExtraBundle](http://symfony.com/doc/master/cmf/bundles/routing-extra.html)
 
 
 

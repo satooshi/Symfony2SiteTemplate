@@ -1,6 +1,7 @@
 #!/bin/sh
 
-root_dir=/usr/local/prj/github/Symfony2SiteTemplate
+bin_dir=$(cd $(dirname $0);pwd)
+root_dir=$(cd ../;pwd)
 
 cd ${root_dir}
 

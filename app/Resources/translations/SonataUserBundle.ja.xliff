@@ -200,7 +200,7 @@
             </trans-unit>
             <trans-unit id="form_general">
                 <source>General</source>
-                <target>アカウント情報</target>
+                <target>一般設定</target>
             </trans-unit>
             <trans-unit id="form_groups">
                 <source>Groups</source>

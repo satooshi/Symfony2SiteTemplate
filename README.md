@@ -26,6 +26,7 @@ And also including these libraries.
 
 Here are the bootstrap commands for your web site application. 
 
+    ```shell
     cd workspace
     git clone https://github.com/satooshi/Symfony2SiteTemplate.git YourApp
     cd YourApp
@@ -33,11 +34,13 @@ Here are the bootstrap commands for your web site application.
     chmod -R a+w app/cache app/logs
     cp app.php index.php # for prod
     cp app_dev.php index.php # for dev
+    ```
 
 Next, setup your environment through web configurator. Open [http://localhost/config.php](http://localhost/config.php) with a web browser and follow the instructions.
 
 And then, you should run the following commands to create required tables, user records, and pages.
 
+    ```shell
     # create tables related to sonata page bundle sonata admin
     php app/console doctrine:schema:create
     php app/console doctrine:schema:update --force
@@ -79,6 +82,7 @@ And then, you should run the following commands to create required tables, user 
     
     # create snapshots
     php app/console sonata:page:create-snapshots --site=all
+    ```
 
 Now you can start web server and open login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .
 

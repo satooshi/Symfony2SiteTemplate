@@ -1,6 +1,6 @@
-Symfony2 Site Template
+Symfony2 Web Site Template
 =================
-This template is Symfony2 boilerplate including the following useful bundles.
+This is a Symfony2 boilerplate including the following useful bundles. 
 
 * SonataUserBundle and its dependencies
     * FOS user bundle
@@ -16,6 +16,11 @@ This template is Symfony2 boilerplate including the following useful bundles.
     * SonataSeoBundle
     * SonataNotificationBundle
     * SymfonyCmfRoutingExtraBundle
+
+And also including these libraries.
+
+* [YUI compressor](http://developer.yahoo.com/yui/compressor/) [download the jar file](http://yuilibrary.com/projects/yuicompressor/)
+
 
 ## Introduction
 
@@ -75,5 +80,14 @@ And then, you should run the following commands to create required tables, user 
     # create snapshots
     php app/console sonata:page:create-snapshots --site=all
 
-Now you can start web server and access login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .
+Now you can start web server and open login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .
+
+If you want to get more information, see documentation of each bundle.
+
+* [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle)
+* [Sonata Project](http://sonata-project.org/bundles/)
+* 
+
+
+
 

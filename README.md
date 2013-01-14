@@ -75,7 +75,9 @@ php app/console fos:user:create testuser test@example.com userpass
 #php app/console sonata:easy-extends:generate SonataPageBundle --dest=src
 
 # create a default site
-php app/console sonata:page:create-site --enabled=true --name=sample --locale=- --host=localhost --relativePath=/ --enabledFrom=now --enabledTo="+1 years" --default=1
+php app/console sonata:page:create-site --enabled=true --name=sample \
+--locale=- --host=localhost --relativePath=/ --enabledFrom=now \
+--enabledTo="+1 years" --default=1
 
 # create default pages
 php app/console sonata:page:update-core-routes --site=all

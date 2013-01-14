@@ -40,49 +40,49 @@ Next, setup your environment through web configurator. Open [http://localhost/co
 
 And then, you should run the following commands to create required tables, user records, and pages.
 
-    ```sh
-    # create tables related to sonata page bundle sonata admin
-    php app/console doctrine:schema:create
-    php app/console doctrine:schema:update --force
+```sh
+# create tables related to sonata page bundle sonata admin
+php app/console doctrine:schema:create
+php app/console doctrine:schema:update --force
 
-    #
-    # configure fos user bundle
-    #
-    # if you want to use fos user bunde instead of sonata user bundle, run this command
-    # and then, create your User, Group entity to src/Bundle/UserBundle/Entity/
-    # see official doc to get information in detail
-    # https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/index.md
-    #php app/console generate:bundle --namespace=Application/Bundle/UserBundle --dir=src
+#
+# configure fos user bundle
+#
+# if you want to use fos user bunde instead of sonata user bundle, run this command
+# and then, create your User, Group entity to src/Bundle/UserBundle/Entity/
+# see official doc to get information in detail
+# https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/index.md
+#php app/console generate:bundle --namespace=Application/Bundle/UserBundle --dir=src
 
-    #
-    # configure sonata user bundle
-    #
-    # this command has already been done in this boilerplate
-    # enable sonata user bundle on your application
-    #php app/console sonata:easy-extends:generate SonataUserBundle --dest=src
-    
-    # create users
-    php app/console fos:user:create admin admin@example.com adminpass --super-admin
-    php app/console fos:user:create testuser test@example.com userpass
+#
+# configure sonata user bundle
+#
+# this command has already been done in this boilerplate
+# enable sonata user bundle on your application
+#php app/console sonata:easy-extends:generate SonataUserBundle --dest=src
 
-    #
-    # configure sonata page bundle
-    # see official doc 
-    # http://sonata-project.org/bundles/page/master/doc/reference/getting_started.html
-    #
-    # this command has already been done in this boilerplate
-    # enable sonata page bundle on your application
-    #php app/console sonata:easy-extends:generate SonataPageBundle --dest=src
-    
-    # create a default site
-    php app/console sonata:page:create-site --enabled=true --name=sample --locale=- --host=localhost --relativePath=/ --enabledFrom=now --enabledTo="+1 years" --default=1
-    
-    # create default pages
-    php app/console sonata:page:update-core-routes --site=all
-    
-    # create snapshots
-    php app/console sonata:page:create-snapshots --site=all
-    ```
+# create users
+php app/console fos:user:create admin admin@example.com adminpass --super-admin
+php app/console fos:user:create testuser test@example.com userpass
+
+#
+# configure sonata page bundle
+# see official doc 
+# http://sonata-project.org/bundles/page/master/doc/reference/getting_started.html
+#
+# this command has already been done in this boilerplate
+# enable sonata page bundle on your application
+#php app/console sonata:easy-extends:generate SonataPageBundle --dest=src
+
+# create a default site
+php app/console sonata:page:create-site --enabled=true --name=sample --locale=- --host=localhost --relativePath=/ --enabledFrom=now --enabledTo="+1 years" --default=1
+
+# create default pages
+php app/console sonata:page:update-core-routes --site=all
+
+# create snapshots
+php app/console sonata:page:create-snapshots --site=all
+```
 
 Now you can start web server and open login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .
 

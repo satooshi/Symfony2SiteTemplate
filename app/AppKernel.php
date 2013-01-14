@@ -30,12 +30,13 @@ class AppKernel extends Kernel
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
-            new Sonata\IntlBundle\SonataIntlBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+
+            new Sonata\IntlBundle\SonataIntlBundle(),
+            new Sonata\SeoBundle\SonataSeoBundle(),
 
             //new Sonata\PageBundle\SonataPageBundle(),
             //new Sonata\NotificationBundle\SonataNotificationBundle(),
-            //new Sonata\SeoBundle\SonataSeoBundle(),
             //new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
 
             // your app

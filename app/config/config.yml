@@ -6,6 +6,7 @@ imports:
     - { resource: sonata_user_security.yml }
     - { resource: sonata_admin_config.yml }
     - { resource: sonata_intl_config.yml }
+    - { resource: sonata_seo_config.yml }
 
 framework:
     #esi:             ~

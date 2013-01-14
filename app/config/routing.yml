@@ -19,10 +19,6 @@ _sonata_admin:
 _sonata_page:
     resource: sonata_page_routing.yml
 
-#application_user:
-#    resource: "@ApplicationUserBundle/Controller/"
-#    type:     annotation
-
 application_site:
     resource: "@ApplicationSiteBundle/Controller/"
     type:     annotation

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-root_dir=/usr/local/prj/github/ContribSiteBundle
+root_dir=/usr/local/prj/github/Symfony2SiteTemplate
 
 cd ${root_dir}
 

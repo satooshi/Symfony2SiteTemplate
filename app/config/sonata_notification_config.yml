@@ -1,2 +1,21 @@
+# sonata notification bundle
+doctrine:
+    dbal:
+        types:
+            json: Sonata\Doctrine\Types\JsonType
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    SonataNotificationBundle: ~
+
 sonata_notification:
+    # direct call, no benefit but useful for testing purpose
     backend: sonata.notification.backend.runtime
+    # other options:
+    # post-pone the messages to be dispatched on kernel.terminate
+    #backend: sonata.notification.backend.postpone
+    # use database to store message, require a background task to be started and supervised, decent starting point for a small amount of async task
+    #backend: sonata.notification.backend.doctrine
+    # use the RabbitMQ engine to handle messaging, best performance
+    #backend: sonata.notification.backend.rabbitmq

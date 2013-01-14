@@ -7,20 +7,23 @@
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
 
-_fos:
+_fos_user:
     resource: fos_user_routing.yml
 
 _sonata_user:
     resource: sonata_user_routing.yml
 
-_admin:
+_sonata_admin:
     resource: sonata_admin_routing.yml
+
+_sonata_page:
+    resource: sonata_page_routing.yml
+
+#application_user:
+#    resource: "@ApplicationUserBundle/Controller/"
+#    type:     annotation
 
 application_site:
     resource: "@ApplicationSiteBundle/Controller/"
     type:     annotation
     prefix:   /
-
-application_user:
-    resource: "@ApplicationUserBundle/Controller/"
-    type:     annotation

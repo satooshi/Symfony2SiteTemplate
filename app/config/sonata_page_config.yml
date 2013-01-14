@@ -1,23 +1,12 @@
-# sonata notification bundle
-doctrine:
-    dbal:
-        types:
-            json: Sonata\Doctrine\Types\JsonType
-    #orm:
-        #entity_managers:
-        #    default:
-        #        mappings:
-        #            SonataNotificationBundle: ~
-
 # sonata page bundle
-#ApplicationSonataPageBundle: ~
-#SonataPageBundle: ~
 sonata_page:
     multisite: host
     use_streamed_response: true # set the value to false in debug mode or if the reverse proxy does not handle streamed response
     ignore_route_patterns:
         - ^(.*)admin(.*)   # ignore admin route, ie route containing 'admin'
         - ^_(.*)          # ignore symfony routes
+        - ^fos_(.*)
+        - ^sonata_user_(.*)
 
     ignore_routes:
         - sonata_page_esi_cache
@@ -32,6 +21,7 @@ sonata_page:
 
     ignore_uri_patterns:
         - ^/admin(.*)   # ignore admin route, ie route containing 'admin'
+        - ^/_(.*)       # ignore symfony routes, ie route containing '_profiler'
 
     page_defaults:
         homepage: {decorate: false} # disable decoration for homepage, key - is a page route

@@ -21,9 +21,11 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
             // Vendor specifics bundles
+            // sonata user bundle
             new FOS\UserBundle\FOSUserBundle(),
             new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
 
+            // sonata admin bundle
             new Sonata\AdminBundle\SonataAdminBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Sonata\CacheBundle\SonataCacheBundle(),
@@ -32,18 +34,18 @@ class AppKernel extends Kernel
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
+            // sonata page bundle
+            new Sonata\PageBundle\SonataPageBundle(),
             new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\SeoBundle\SonataSeoBundle(),
-
-            //new Sonata\PageBundle\SonataPageBundle(),
-            //new Sonata\NotificationBundle\SonataNotificationBundle(),
-            //new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
+            new Sonata\NotificationBundle\SonataNotificationBundle(),
+            new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
 
             // your app
-            new Application\Bundle\UserBundle\ApplicationUserBundle(),
-            //new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
+            //new Application\Bundle\UserBundle\ApplicationUserBundle(),
             new Application\Bundle\SiteBundle\ApplicationSiteBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
+            new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

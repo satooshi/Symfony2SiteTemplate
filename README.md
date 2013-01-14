@@ -26,15 +26,15 @@ And also including these libraries.
 
 Here are the bootstrap commands for your web site application. 
 
-    ```sh
-    cd workspace
-    git clone https://github.com/satooshi/Symfony2SiteTemplate.git YourApp
-    cd YourApp
-    sh bin/refresh-vendor.sh
-    chmod -R a+w app/cache app/logs
-    cp app.php index.php # for prod
-    cp app_dev.php index.php # for dev
-    ```
+```sh
+cd workspace
+git clone https://github.com/satooshi/Symfony2SiteTemplate.git YourApp
+cd YourApp
+sh bin/refresh-vendor.sh
+chmod -R a+w app/cache app/logs
+cp app.php index.php # for prod
+cp app_dev.php index.php # for dev
+```
 
 Next, setup your environment through web configurator. Open [http://localhost/config.php](http://localhost/config.php) with a web browser and follow the instructions.
 

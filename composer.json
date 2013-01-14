@@ -37,7 +37,9 @@
         "sonata-project/easy-extends-bundle": "dev-master",
         "sonata-project/seo-bundle": "dev-master",
         "sonata-project/notification-bundle": "dev-master",
-        "sonata-project/cache-bundle": "dev-master"
+        "sonata-project/cache-bundle": "dev-master",
+        "sonata-project/media-bundle": "dev-master",
+        "knplabs/gaufrette": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

@@ -19,6 +19,9 @@ _sonata_admin:
 _sonata_page:
     resource: sonata_page_routing.yml
 
+_sonata_media:
+    resource: sonata_media_routing.yml
+
 application_site:
     resource: "@ApplicationSiteBundle/Controller/"
     type:     annotation

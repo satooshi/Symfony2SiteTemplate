@@ -9,6 +9,7 @@ imports:
     - { resource: sonata_seo_config.yml }
     - { resource: sonata_page_config.yml }
     - { resource: sonata_page_security.yml }
+    - { resource: sonata_media_config.yml }
 
 framework:
     #esi:             ~

@@ -41,11 +41,15 @@ class AppKernel extends Kernel
             new Sonata\NotificationBundle\SonataNotificationBundle(),
             new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
 
+            // sonata news bundle
+            new Sonata\MediaBundle\SonataMediaBundle(),
+
             // your app
             //new Application\Bundle\UserBundle\ApplicationUserBundle(),
             new Application\Bundle\SiteBundle\ApplicationSiteBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
+            new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

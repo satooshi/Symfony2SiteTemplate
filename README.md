@@ -16,6 +16,8 @@ This is a Symfony2 boilerplate including the following useful bundles.
     * SonataSeoBundle
     * SonataNotificationBundle
     * SymfonyCmfRoutingExtraBundle
+* SonataNewsBundle and its dependencies
+    * SonataMediaBundle
 
 And also including these libraries.
 
@@ -31,7 +33,7 @@ cd workspace
 git clone https://github.com/satooshi/Symfony2SiteTemplate.git YourApp
 cd YourApp
 sh bin/refresh-vendor.sh
-chmod -R a+w app/cache app/logs
+chmod -R 0777 app/cache app/logs
 cp app.php index.php # for prod
 cp app_dev.php index.php # for dev
 ```
@@ -84,6 +86,19 @@ php app/console sonata:page:update-core-routes --site=all
 
 # create snapshots
 php app/console sonata:page:create-snapshots --site=all
+
+#
+# configure sonata media bundle
+# see official doc 
+# http://sonata-project.org/bundles/media/master/doc/reference/installation.html
+#
+# this command has already been done in this boilerplate
+# enable sonata media bundle on your application
+#php app/console sonata:easy-extends:generate SonataMediaBundle --dest=src
+
+# create upload dir
+mkdir -p web/uploads/media
+chmod -R 0777 web/uploads
 ```
 
 Now you can start web server and open login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .

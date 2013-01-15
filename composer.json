@@ -19,6 +19,7 @@
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
+        "twig/twig": "1.11.1",
 
         "friendsofsymfony/user-bundle": "dev-master",
         "sonata-project/user-bundle": "dev-master",
@@ -43,7 +44,10 @@
         "sonata-project/media-bundle": "dev-master",
         "knplabs/gaufrette": "dev-master",
         "sonata-project/news-bundle": "dev-master",
-        "sonata-project/formatter-bundle": "dev-master"
+        "sonata-project/formatter-bundle": "dev-master",
+
+        "simplethings/form-extra-bundle": "dev-master",
+        "simplethings/entity-audit-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

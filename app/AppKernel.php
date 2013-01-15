@@ -47,6 +47,9 @@ class AppKernel extends Kernel
             new Sonata\FormatterBundle\SonataFormatterBundle(),
             new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
 
+            // simplethings
+            new SimpleThings\FormExtraBundle\SimpleThingsFormExtraBundle(),
+
             // your app
             //new Application\Bundle\UserBundle\ApplicationUserBundle(),
             new Application\Bundle\SiteBundle\ApplicationSiteBundle(),

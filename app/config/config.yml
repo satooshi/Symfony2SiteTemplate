@@ -1,17 +1,18 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
-    #- { resource: fos_user_config.yml }
-    - { resource: sonata_user_config.yml }
-    - { resource: sonata_user_security.yml }
-    - { resource: sonata_admin_config.yml }
-    - { resource: sonata_intl_config.yml }
-    - { resource: sonata_seo_config.yml }
-    - { resource: sonata_page_config.yml }
-    - { resource: sonata_page_security.yml }
-    - { resource: sonata_media_config.yml }
-    - { resource: sonata_news_config.yml }
-    - { resource: sonata_formatter_config.yml }
+    #- { resource: fos/fos_user_config.yml }
+    - { resource: sonata/sonata_user_config.yml }
+    - { resource: sonata/sonata_user_security.yml }
+    - { resource: sonata/sonata_admin_config.yml }
+    - { resource: sonata/sonata_intl_config.yml }
+    - { resource: sonata/sonata_seo_config.yml }
+    - { resource: sonata/sonata_page_config.yml }
+    - { resource: sonata/sonata_page_security.yml }
+    - { resource: sonata/sonata_media_config.yml }
+    - { resource: sonata/sonata_news_config.yml }
+    - { resource: sonata/sonata_formatter_config.yml }
+    - { resource: simplethings/form_extra_config.yml }
 
 framework:
     #esi:             ~

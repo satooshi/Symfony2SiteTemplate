@@ -8,22 +8,22 @@
 #    prefix:   /_internal
 
 _fos_user:
-    resource: fos_user_routing.yml
+    resource: fos/fos_user_routing.yml
 
 _sonata_user:
-    resource: sonata_user_routing.yml
+    resource: sonata/sonata_user_routing.yml
 
 _sonata_admin:
-    resource: sonata_admin_routing.yml
+    resource: sonata/sonata_admin_routing.yml
 
 _sonata_page:
-    resource: sonata_page_routing.yml
+    resource: sonata/sonata_page_routing.yml
 
 _sonata_media:
-    resource: sonata_media_routing.yml
+    resource: sonata/sonata_media_routing.yml
 
 _sonata_news:
-    resource: sonata_news_routing.yml
+    resource: sonata/sonata_news_routing.yml
 
 application_site:
     resource: "@ApplicationSiteBundle/Controller/"

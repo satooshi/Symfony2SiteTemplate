@@ -1,0 +1,7 @@
+simple_things_form_extra:
+    help_extension: true
+
+twig:
+    form:
+        resources:
+            - SimpleThingsFormExtraBundle:Form:field_type_help.html.twig

@@ -10,6 +10,8 @@ imports:
     - { resource: sonata_page_config.yml }
     - { resource: sonata_page_security.yml }
     - { resource: sonata_media_config.yml }
+    - { resource: sonata_news_config.yml }
+    - { resource: sonata_formatter_config.yml }
 
 framework:
     #esi:             ~

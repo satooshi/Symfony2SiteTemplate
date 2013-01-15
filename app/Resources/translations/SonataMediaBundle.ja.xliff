@@ -2,61 +2,61 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
-        	<trans-unit id="default">
+            <trans-unit id="default">
                 <source>default</source>
                 <target>Default</target>
             </trans-unit>
             <trans-unit id="sidemenu.link_edit_media">
                 <source>sidemenu.link_edit_media</source>
-                <target>Edit</target>
+                <target>編集</target>
             </trans-unit>
             <trans-unit id="sidemenu.link_media_view">
                 <source>sidemenu.link_media_view</source>
-                <target>View</target>
+                <target>表示</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_media_create">
                 <source>breadcrumb.link_media_create</source>
-                <target>Create</target>
+                <target>作成</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_media_list">
                 <source>breadcrumb.link_media_list</source>
-                <target>Medias</target>
+                <target>メディア一覧</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_media_edit">
                 <source>breadcrumb.link_media_edit</source>
-                <target>Edit</target>
+                <target>編集</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_media_view">
                 <source>breadcrumb.link_media_view</source>
-                <target>View</target>
+                <target>表示</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_media_delete">
                 <source>breadcrumb.link_media_delete</source>
-                <target>Delete</target>
+                <target>削除</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_gallery_create">
                 <source>breadcrumb.link_gallery_create</source>
-                <target>Create</target>
+                <target>作成</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_gallery_list">
                 <source>breadcrumb.link_gallery_list</source>
-                <target>Galleries</target>
+                <target>ギャラリー</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_gallery_edit">
                 <source>breadcrumb.link_gallery_edit</source>
-                <target>Edit</target>
+                <target>編集</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_gallery_delete">
                 <source>breadcrumb.link_gallery_delete</source>
-                <target>Delete</target>
+                <target>削除</target>
             </trans-unit>
             <trans-unit id="media">
                 <source>media</source>
-                <target>Media</target>
+                <target>メディア</target>
             </trans-unit>
             <trans-unit id="gallery">
                 <source>gallery</source>
-                <target>Gallery</target>
+                <target>ギャラリー</target>
             </trans-unit>
             <trans-unit id="title_select_provider">
                 <source>title_select_provider</source>
@@ -68,31 +68,31 @@
             </trans-unit>
             <trans-unit id="title.media_preview">
                 <source>title.media_preview</source>
-                <target>Preview</target>
+                <target>プレビュー</target>
             </trans-unit>
             <trans-unit id="title.media_thumbnail">
                 <source>title.media_thumbnail</source>
-                <target>Thumbnail</target>
+                <target>サムネイル</target>
             </trans-unit>
             <trans-unit id="title.informations">
                 <source>title.informations</source>
-                <target>Information</target>
+                <target>メディアデータ</target>
             </trans-unit>
             <trans-unit id="label.size">
                 <source>label.size</source>
-                <target>Size</target>
+                <target>ファイルサイズ</target>
             </trans-unit>
             <trans-unit id="label.width">
                 <source>label.width</source>
-                <target>Width</target>
+                <target>幅</target>
             </trans-unit>
             <trans-unit id="label.height">
                 <source>label.height</source>
-                <target>Height</target>
+                <target>高さ</target>
             </trans-unit>
             <trans-unit id="label.content_type">
                 <source>label.content_type</source>
-                <target>Content type</target>
+                <target>コンテントタイプ</target>
             </trans-unit>
             <trans-unit id="label.copyright">
                 <source>label.copyright</source>
@@ -100,7 +100,7 @@
             </trans-unit>
             <trans-unit id="label.author_name">
                 <source>label.author_name</source>
-                <target>Author</target>
+                <target>作成者</target>
             </trans-unit>
             <trans-unit id="label.cdn">
                 <source>label.cdn</source>
@@ -116,15 +116,15 @@
             </trans-unit>
             <trans-unit id="label.public_url">
                 <source>label.public_url</source>
-                <target>Public URL</target>
+                <target>公開URL</target>
             </trans-unit>
             <trans-unit id="label.name">
                 <source>label.name</source>
-                <target>Name</target>
+                <target>名前</target>
             </trans-unit>
             <trans-unit id="label.file">
                 <source>label.file</source>
-                <target>File</target>
+                <target>ファイル</target>
             </trans-unit>
             <trans-unit id="label.author">
                 <source>label.author</source>
@@ -144,11 +144,11 @@
             </trans-unit>
             <trans-unit id="label.description">
                 <source>label.description</source>
-                <target>Description</target>
+                <target>説明</target>
             </trans-unit>
             <trans-unit id="title.formats">
                 <source>title.formats</source>
-                <target>Formats</target>
+                <target>フォーマット</target>
             </trans-unit>
             <trans-unit id="label.select_context">
                 <source>label.select_context</source>
@@ -156,11 +156,11 @@
             </trans-unit>
             <trans-unit id="label.select_provider">
                 <source>label.select_provider</source>
-                <target>Type : </target>
+                <target>メディアタイプ : </target>
             </trans-unit>
             <trans-unit id="link.all_providers">
                 <source>link.all_providers</source>
-                <target>All</target>
+                <target>全て</target>
             </trans-unit>
             <trans-unit id="sonata.media.provider.dailymotion">
                 <source>sonata.media.provider.dailymotion</source>
@@ -176,15 +176,15 @@
             </trans-unit>
             <trans-unit id="sonata.media.provider.image">
                 <source>sonata.media.provider.image</source>
-                <target>Image</target>
+                <target>画像</target>
             </trans-unit>
             <trans-unit id="sonata.media.provider.file">
                 <source>sonata.media.provider.file</source>
-                <target>File</target>
+                <target>ファイル</target>
             </trans-unit>
             <trans-unit id="label.protected_download_url">
                 <source>label.protected_download_url</source>
-                <target>Protected URL</target>
+                <target>内部URL</target>
             </trans-unit>
             <trans-unit id="description.roles_download_strategy">
                 <source>description.roles_download_strategy</source>
@@ -239,7 +239,7 @@
             </trans-unit>
             <trans-unit id="form.label_enabled">
                 <source>form.label_enabled</source>
-                <target>Enabled</target>
+                <target>有効</target>
             </trans-unit>
             <trans-unit id="form.label_media">
                 <source>form.label_media</source>
@@ -255,19 +255,19 @@
             </trans-unit>
             <trans-unit id="form.label_name">
                 <source>form.label_name</source>
-                <target>Name</target>
+                <target>ファイル名</target>
             </trans-unit>
             <trans-unit id="form.label_default_format">
                 <source>form.label_default_format</source>
-                <target>Format</target>
+                <target>フォーマット</target>
             </trans-unit>
             <trans-unit id="form.label_gallery_has_medias">
                 <source>form.label_gallery_has_medias</source>
-                <target>Medias</target>
+                <target>メディア</target>
             </trans-unit>
             <trans-unit id="form.label_author_name">
                 <source>form.label_author_name</source>
-                <target>Author</target>
+                <target>作成者</target>
             </trans-unit>
             <trans-unit id="form.label_cdn_is_flushable">
                 <source>form.label_cdn_is_flushable</source>
@@ -275,7 +275,7 @@
             </trans-unit>
             <trans-unit id="form.label_description">
                 <source>form.label_description</source>
-                <target>Description</target>
+                <target>説明</target>
             </trans-unit>
             <trans-unit id="form.label_copyright">
                 <source>form.label_copyright</source>
@@ -283,11 +283,11 @@
             </trans-unit>
             <trans-unit id="list.label_enabled">
                 <source>list.label_enabled</source>
-                <target>Enabled</target>
+                <target>有効</target>
             </trans-unit>
             <trans-unit id="list.label_name">
                 <source>list.label_name</source>
-                <target>Name</target>
+                <target>名前</target>
             </trans-unit>
             <trans-unit id="list.label_context">
                 <source>list.label_context</source>
@@ -295,11 +295,11 @@
             </trans-unit>
             <trans-unit id="list.label_default_format">
                 <source>list.label_default_format</source>
-                <target>Format</target>
+                <target>フォーマット</target>
             </trans-unit>
             <trans-unit id="list.label__action">
                 <source>list.label__action</source>
-                <target>Action</target>
+                <target>操作</target>
             </trans-unit>
             <trans-unit id="list.label_custom">
                 <source>list.label_custom</source>
@@ -307,34 +307,31 @@
             </trans-unit>
             <trans-unit id="filter.label_name">
                 <source>filter.label_name</source>
-                <target>Name</target>
+                <target>名前</target>
             </trans-unit>
             <trans-unit id="filter.label_provider_reference">
                 <source>filter.label_provider_reference</source>
                 <target>Provider Reference</target>
             </trans-unit>
-
             <trans-unit id="filter.label_enabled">
                 <source>filter.label_enabled</source>
-                <target>Enabled</target>
+                <target>有効</target>
             </trans-unit>
-
             <trans-unit id="filter.label_context">
                 <source>filter.label_context</source>
                 <target>Context</target>
             </trans-unit>
-
             <trans-unit id="filter.label_provider_name">
                 <source>filter.label_provider_name</source>
                 <target>Provider Name</target>
             </trans-unit>
             <trans-unit id="form.label_binary_content">
                 <source>form.label_binary_content</source>
-                <target>File</target>
+                <target>ファイル</target>
             </trans-unit>
             <trans-unit id="sonata_media">
                 <source>sonata_media</source>
-                <target>Media Library</target>
+                <target>メディア</target>
             </trans-unit>
         </body>
     </file>

@@ -316,7 +316,7 @@
             </trans-unit>
             <trans-unit id="list_results_count">
                 <source>list_results_count</source>
-                <target>1 件|%count% 件</target>
+                <target>1 ページ|%count% ページ</target>
             </trans-unit>
             <trans-unit id="label_export_download">
                 <source>label_export_download</source>

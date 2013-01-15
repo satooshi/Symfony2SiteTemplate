@@ -18,6 +18,8 @@ This is a Symfony2 boilerplate including the following useful bundles.
     * SymfonyCmfRoutingExtraBundle
 * SonataNewsBundle and its dependencies
     * SonataMediaBundle
+    * SonataFormatterBundle
+    * KnpMarkdownBundle
 
 And also including these libraries.
 
@@ -99,6 +101,15 @@ php app/console sonata:page:create-snapshots --site=all
 # create upload dir
 mkdir -p web/uploads/media
 chmod -R 0777 web/uploads
+
+#
+# configure sonata news bundle
+# see official doc 
+# http://sonata-project.org/bundles/news/master/doc/reference/installation.html
+#
+# this command has already been done in this boilerplate
+# enable sonata news bundle on your application
+# php app/console sonata:easy-extends:generate SonataNewsBundle --dest=src
 ```
 
 Now you can start web server and open login page for admin site [http://localhost/admin/login](http://localhost/admin/login) .

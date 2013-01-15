@@ -49,6 +49,7 @@ class AppKernel extends Kernel
 
             // simplethings
             new SimpleThings\FormExtraBundle\SimpleThingsFormExtraBundle(),
+            new SimpleThings\EntityAudit\SimpleThingsEntityAuditBundle(),
 
             // your app
             //new Application\Bundle\UserBundle\ApplicationUserBundle(),

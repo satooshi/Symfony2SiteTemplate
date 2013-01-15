@@ -20,6 +20,8 @@ This is a Symfony2 boilerplate including the following useful bundles.
     * SonataMediaBundle
     * SonataFormatterBundle
     * KnpMarkdownBundle
+* SimpleThingsFormExtraBundle
+* SimpleThingsEntityAuditBundle
 
 And also including these libraries.
 
